@@ -1,0 +1,105 @@
+stackbitVersion: ~0.3.0
+ssgName: jekyll
+publishDir: _site
+dataDir: _data
+pagesDir: ''
+models:
+  post:
+    type: page
+    label: Post
+    folder: _posts
+    match: '*'
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: post-image
+        label: Post Image
+      - type: string
+        name: description
+        label: Description
+      - type: list
+        name: tags
+        label: Tags
+        items:
+          type: string
+  page_1:
+    type: page
+    label: Page 1
+    match:
+      - 404.md
+    fields:
+      - type: number
+        name: title
+        label: Title
+        subtype: int
+      - type: number
+        name: layout
+        label: Layout
+        subtype: int
+  page_2:
+    type: page
+    label: Page 2
+    match:
+      - blog.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+  page_3:
+    type: page
+    label: Page 3
+    match:
+      - index.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+  page_4:
+    type: page
+    label: Page 4
+    match:
+      - project.md
+    fields:
+      - type: string
+        name: layout
+        label: Layout
+      - type: string
+        name: title
+        label: Title
+  page_5:
+    type: page
+    label: Page 5
+    match:
+      - test-page.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: layout
+        label: Layout
+  projects:
+    type: data
+    label: Projects
+    file: projects.yml
+    isList: true
+    items:
+      type: object
+      fields:
+        - type: string
+          name: name
+          label: Name
+        - type: image
+          name: image
+          label: Image
+        - type: string
+          name: description
+          label: Description
