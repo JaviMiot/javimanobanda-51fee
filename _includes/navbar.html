@@ -3,7 +3,7 @@
 
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
-            <a class="navbar-item"
+            <a class="navbar-item item_a"
                 href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
                 <img class='logo-img' src="{{ 'assets/images/logo.svg' | absolute_url }}" alt="">
             </a>
@@ -27,6 +27,7 @@
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACT</a>
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
+                    {% include dropdown.html %}
             </div>
         </div>
     </div>
