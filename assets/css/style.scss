@@ -18,16 +18,22 @@
   height: 50px;
 }
 
-.Blue_text{
- color: var(--blue);
+.Blue_text {
+  color: var(--blue);
 }
 
-.background-black{
-    background-color: var(--black);
+.background-black {
+  background-color: var(--black-back);
 }
 
-.background-blue-dark{
-    background-color: var(--blue-dark);
+.background-blue-dark {
+  background: rgb(6, 4, 11);
+  background: linear-gradient(
+    0deg,
+    rgba(6, 4, 11, 1) 0%,
+    rgba(19, 38, 64, 1) 63%,
+    rgba(40, 99, 110, 1) 100%
+  );
 }
 /* Add color my brand */
 
@@ -45,6 +51,24 @@ a.navbar-item:hover,
 .navbar-link:hover {
   background-color: var(--back);
   color: var(--blue) !important;
+}
+
+.item_a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+.navbar-item {
+  color: var(--grey);
+}
+
+.grey_text {
+  color: var(--grey);
+}
+
+.navbar-item img {
+  max-height: none !important;
 }
 
 a.navbar-item.is-active {
@@ -232,13 +256,11 @@ a.navbar-item.is-active {
   }
 }
 
-
-.button:hover{
-    background-color: var(--blue) !important;
-    color: white !important;
-    border: none !important;
+.button:hover {
+  background-color: var(--blue) !important;
+  color: white !important;
+  border: none !important;
 }
-
 
 #footer {
   #backtotop {
