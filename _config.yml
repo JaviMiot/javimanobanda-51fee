@@ -1,43 +1,39 @@
 markdown: kramdown
-url: ''
-baseurl: ''
-title: What A Theme
-description: A customizable Jekyll portfolio theme
+url: ""
+baseurl: ""
+title: Javier Manobanda
+description: Mechatronic | Software Developer
 site-image: /WhatATheme/assets/images/meta.jpg
-site-keywords: 'Site, Template, Theme'
+site-keywords: "Site, Template, Theme"
 favicon-url: null
 heroimage: >-
   https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username: thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
-google-analytics: UA-163806439-1
-disqus-shortname: thedevslot
-author-name: TheDevsLot
+email: javierdeveloper27@gmail.com
+facebook_username:
+twitter_username: JaviM_iot
+instagram_username: javim_iot
+linkedin_username: javimiot
+github_username: JaviMiot
+youtube_channel_id:
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
+google-analytics:
+disqus-shortname:
+author-name: Javier Manobanda
 author-image: >-
-  https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+  https://drive.google.com/uc?export=view&id=12TxnO-8n8NMqi4UI8I55s0gWko1LTp6J
 author-about: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget
-  pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus
-  metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit.
-  Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque
-  sit amet sodales.
-author-url: 'https://github.com/thedevslot'
+  Mechatronic engineer. Focused on STEM (Science, Technology, Engineering, and Mathematics). Entrepreneur in the area of technology and design of digital products, with experience in software development and Iot. Currently in constant learning to improve myself as a full stack developer.
+author-url: "https://github.com/JaviMiot"
 sass:
   sass_dir: _sass
   style: compressed
 plugins:
   - jekyll-admin
   - jekyll-feed
-permalink: 'blog/:title'
+permalink: "blog/:title"
 compress_html:
   clippings: all
 defaults:
@@ -45,10 +41,10 @@ defaults:
       type: posts
     values:
       layout: post
-      post-image: ''
-      description: ''
+      post-image: ""
+      description: ""
       tags:
-        - ''
+        - ""
   - scope:
       type: pages
     values:
