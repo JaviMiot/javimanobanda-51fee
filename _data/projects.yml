@@ -1,20 +1,25 @@
 - name: BatataBit Page
   link: https://github.com/JaviMiot/page_batatabit
+  link_demo: https://JaviMiot.github.io/page_batatabit
   image: https://drive.google.com/uc?export=view&id=1RgRdJV5-46HNQHBUVh0fnltKdM4q0gFa
   description: Landing page for babatabit cryptocurrencies
 - name: Social Media Dashboard
   link: https://github.com/JaviMiot/SocialMediaDashboard
+  link_demo: https://JaviMiot.github.io/SocialMediaDashboard/public/index.html
   image: https://drive.google.com/uc?export=view&id=1Io1vAo-B-rFqYKACSF3VlYuvldO_YtHL
   description: Social media dashboard with dark mode
 - name: Platzigram
   link: https://github.com/JaviMiot/instapage
+  link_demo:
   image: https://drive.google.com/uc?export=view&id=1Y1gtP5O9Vis1MYI0bA0KwzxtQWTinNDf
   description: Clone Instagram
 - name: Todo List
   link: https://github.com/JaviMiot/Flask_Page
+  link_demo:
   image: https://drive.google.com/uc?export=view&id=1F1EaR-6wkTR4u7SwMJj-nKFEmzSp3Xot
   description: Todo List App
 - name: PlatziVideo
   link: https://github.com/JaviMiot/VideoPlayer
+  link_demo: https://videoplayjm.netlify.app/
   image: https://drive.google.com/uc?export=view&id=11kBFTodLlu4XTU_AO7aUXwXYUrGg7G1r
   description: Todo List App

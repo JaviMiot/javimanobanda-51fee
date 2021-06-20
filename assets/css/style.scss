@@ -37,7 +37,7 @@
 }
 /* Add color my brand */
 
-.text_size_jm{
+.text_size_jm {
   font-size: calc(2.1rem + 0.9vw) !important;
 }
 
@@ -426,4 +426,37 @@ a.navbar-item.is-active {
       display: inline-block;
     }
   }
+}
+
+.btn {
+  height: 40px;
+  display: inline-block;
+  width: 100px;
+  margin: 0px 10px 15px;
+  padding: 10px;
+  border-radius: 13px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.btn_principal {
+  color: rgb(17, 13, 13);
+  background-color: var(--blue);
+}
+
+.btn_secondary {
+  color: white;
+  border: 2px solid var(--blue);
+}
+
+.btn_principal:hover {
+  background-color: var(--blue2);
+  color: white;
+}
+
+.btn_secondary:hover {
+  background-color: var(--blue);
+  color: white;
 }
