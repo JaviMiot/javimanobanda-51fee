@@ -21,8 +21,7 @@ spotify_username:
 google-analytics:
 disqus-shortname:
 author-name: Javier Manobanda
-author-image: >-
-  https://drive.google.com/uc?export=view&id=12TxnO-8n8NMqi4UI8I55s0gWko1LTp6J
+author-image: /assets/images/FotoV2.png
 author-about: >-
   Mechatronic engineer. Focused on STEM (Science, Technology, Engineering, and Mathematics). Entrepreneur in the area of technology and design of digital products, with experience in software development and Iot. Currently in constant learning to improve myself as a full stack developer.
 author-url: "https://github.com/JaviMiot"
