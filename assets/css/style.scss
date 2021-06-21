@@ -460,3 +460,41 @@ a.navbar-item.is-active {
   background-color: var(--blue);
   color: white;
 }
+
+.title_project {
+  font-size: 35px;
+  font-weight: bold;
+}
+.displa_flex_jm {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contact__para {
+  padding-top: 35px;
+}
+
+.container-contact__para p {
+  font-size: 16px;
+  width: 90%;
+  margin: 0px auto 20px;
+  font-weight: 500;
+}
+
+.container-contact__para img {
+  min-height: 80px;
+  max-height: 180px;
+}
+.all_width {
+  width: 100%;
+}
+
+.text_following{
+  font-size: 13px !important;
+}
+
+@media (min-width: 768px){
+  .text_following{
+    font-size: 25px !important;
+  }
+}
