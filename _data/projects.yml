@@ -24,7 +24,7 @@
   image: https://drive.google.com/uc?export=view&id=11kBFTodLlu4XTU_AO7aUXwXYUrGg7G1r
   description: Todo List App
 - name: Job Manager
-  link: https://github.com/JaviMiot/VideoPlayer
+  link: https://github.com/JaviMiot/Job_manager_fronted
   link_demo: https://jobmanager.netlify.app/
   image: https://drive.google.com/uc?export=view&id=1mBLWfdbSQN2oYMJK8YI4xx7_pFf9nAzN
   description: Web App to add Jobs. App development with react and Django
