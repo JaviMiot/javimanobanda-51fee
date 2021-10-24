@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "main.scss";
-@import "vars.scss";
+@import 'main.scss';
+@import 'vars.scss';
 
 #navbar {
   opacity: 0.95;
@@ -20,6 +20,10 @@
 
 .Blue_text {
   color: var(--blue);
+}
+
+.Blue_text-dark {
+  color: var(--blue-dark);
 }
 
 .background-black {
@@ -121,7 +125,7 @@ a.navbar-item.is-active {
     left: 0px;
     position: absolute;
     opacity: 0.25;
-    content: "";
+    content: '';
   }
 }
 .title {
@@ -148,7 +152,9 @@ a.navbar-item.is-active {
 }
 
 #contact {
-  #contact-button {
+  #contact-button-1,
+  #contact-button-2,
+  #contact-button-3 {
     margin: 0.5rem auto;
     display: flex;
     justify-content: center;
@@ -333,6 +339,7 @@ a.navbar-item.is-active {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        border-radius: 8px 8px 0 0;
       }
     }
   }
@@ -351,6 +358,7 @@ a.navbar-item.is-active {
   }
   .card {
     transition: all 0.25s ease;
+    border-radius: 8px;
     &:hover {
       background-color: rgba($color: #000000, $alpha: 0.9) !important;
     }
@@ -489,12 +497,12 @@ a.navbar-item.is-active {
   width: 100%;
 }
 
-.text_following{
+.text_following {
   font-size: 13px !important;
 }
 
-@media (min-width: 768px){
-  .text_following{
+@media (min-width: 768px) {
+  .text_following {
     font-size: 25px !important;
   }
 }
