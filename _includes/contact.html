@@ -8,28 +8,28 @@
         </div>
         <div class="container all_width">
             {% unless site.facebook_username == %}
-            <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
+            <a id="contact-button-1" href="https://m.me/{{site.facebook_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
                 <i class="fab fa-facebook-messenger"></i>Ping me on Messenger
             </a>
             {% endunless %}
             {% unless site.email == %}
-            <a id="contact-button" href="mailto:{{site.email}}"
+            <a id="contact-button-2" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
                 <i class="fas fa-envelope"></i>Send me an Email
             </a>
             {% endunless %}
             {% unless site.twitter_username == %}
-            <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
+            <a id="contact-button-3" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
                 <i class="fab fa-twitter"></i>Tweet me on Twitter
             </a>
             {% endunless %}
             <hr>
-            <h3 class="is-size-5 is-uppercase has-text-weight-semibold Blue_text is-marginless text_following">
+            <h3 class="is-size-5 is-uppercase has-text-weight-semibold Blue_text-dark is-marginless text_following">
                 Follow me on my social networks
             </h3>
             <div class="column is-full is-size-3">
