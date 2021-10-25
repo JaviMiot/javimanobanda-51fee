@@ -1,13 +1,13 @@
 markdown: kramdown
-url: ""
-baseurl: ""
+url: ''
+baseurl: ''
 title: Javier Manobanda
 description: Mechatronic | Software Developer
 site-image: /assets/images/imagenSite.png
-site-keywords: "Site, Template, Theme"
+site-keywords: 'software, iot, mecatronic, mecatrónico, desarrollador, react, python, javascript'
 favicon-url: null
 heroimage: /assets/images/Portada.webp
-email: javierdeveloper27@gmail.com
+email: dev@javimanobanda.online
 facebook_username:
 twitter_username: JaviM_iot
 instagram_username: javim_iot
@@ -24,14 +24,14 @@ author-name: Javier Manobanda
 author-image: /assets/images/FotoV2.webp
 author-about: >-
   Mechatronic engineer. Focused on STEM (Science, Technology, Engineering, and Mathematics). Entrepreneur in the area of technology and design of digital products, with experience in software development and Iot. Currently in constant learning to improve myself as a full stack developer.
-author-url: "https://github.com/JaviMiot"
+author-url: 'https://github.com/JaviMiot'
 sass:
   sass_dir: _sass
   style: compressed
 plugins:
   - jekyll-admin
   - jekyll-feed
-permalink: "blog/:title"
+permalink: 'blog/:title'
 compress_html:
   clippings: all
 defaults:
@@ -39,10 +39,10 @@ defaults:
       type: posts
     values:
       layout: post
-      post-image: ""
-      description: ""
+      post-image: ''
+      description: ''
       tags:
-        - ""
+        - ''
   - scope:
       type: pages
     values:
