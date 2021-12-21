@@ -28,4 +28,8 @@
   link_demo: https://jobmanager.netlify.app/
   image: https://drive.google.com/uc?export=view&id=1mBLWfdbSQN2oYMJK8YI4xx7_pFf9nAzN
   description: Web App to add Jobs. App development with react and Django
-
+- name: Chrome Extension Get Platzi Course
+  link: https://github.com/JaviMiot/ChromeExtensionPlatziCourse
+  link_demo: https://chrome.google.com/webstore/detail/get-platzi-course/lpdhmplaccngmfpddpbibcajbmnjhpci?hl=es
+  image: https://camo.githubusercontent.com/db7be5db3981a7b61d2819d78d65a2edc3b80189105de33cfc36b5775defd701/68747470733a2f2f692e696d6775722e636f6d2f6554554b5057552e706e67
+  description: Chrome extension for get data about course of Platzi plataform
